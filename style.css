@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* common start*/
 .text-mute {
     color: rgb(120, 119, 119);
 }
@@ -25,11 +26,16 @@
     padding: 0px 100px;
 }
 
+.f-size {
+    font-size: 20px;
+}
+
+/* common end */
 
 .top-section {
     display: flex;
     height: 100vh;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -41,7 +47,6 @@
 }
 
 .left p {
-    font-size: 18px;
     font-weight: 500;
 }
 
@@ -77,7 +82,6 @@
 }
 
 .about-right p {
-    font-size: 18px;
     margin-right: 50px;
 }
 
@@ -85,4 +89,38 @@
     background: url("./images/7.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 90vh;
+}
+
+/* about section end */
+
+/* recipie start */
+.recipi-section .wid {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.card {
+    margin: 0px 50px;
+    background-color: #fff;
+    transition: 0.3s;
+    height: 580px;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px gray;
+}
+
+.card img {
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 4%;
+}
+
+.detail h1 {
+    padding: 10px 0px;
 }
