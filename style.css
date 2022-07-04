@@ -43,7 +43,6 @@
 .left h1 {
     font-size: 60px;
     text-transform: capitalize;
-
 }
 
 .left p {
@@ -123,4 +122,23 @@
 
 .detail h1 {
     padding: 10px 0px;
+}
+
+/* counter section start */
+
+.Counter-section {
+    box-shadow: 0px 0px 20px gray;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.counter h1 {
+    font-size: 50px;
+    text-align: center;
 }
