@@ -142,3 +142,14 @@
     font-size: 50px;
     text-align: center;
 }
+
+/* footer start */
+
+.footer{
+    text-align: center;
+    height: 250px;
+    background-color: rgb(13, 13, 13);
+}
+.footer h1{
+   padding-top: 6%;
+}
