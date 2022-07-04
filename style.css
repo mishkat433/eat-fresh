@@ -91,7 +91,7 @@
     height: 90vh;
 }
 
-/* about section end */
+/* contact section end */
 
 /* recipie start */
 .recipi-section .wid {
@@ -104,7 +104,7 @@
     margin: 0px 50px;
     background-color: #fff;
     transition: 0.3s;
-    height: 580px;
+    max-height: 580px;
     padding-left: 2%;
     border-radius: 20px;
 }
@@ -114,8 +114,8 @@
 }
 
 .card img {
-    height: 350px;
-    width: 600px;
+    max-height: 350px;
+    max-width: 600px;
     border-radius: 20px;
     margin-top: 4%;
 }
@@ -129,11 +129,11 @@
 .Counter-section {
     box-shadow: 0px 0px 20px gray;
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 250px;
+    max-height: 250px;
     margin-bottom: 50px;
     border-radius: 20px;
 }
@@ -152,4 +152,67 @@
 }
 .footer h1{
    padding-top: 6%;
+}
+
+@media only screen and (max-width:750px){
+    .top-section{
+        flex-direction: column-reverse;
+        justify-content:start;
+
+    }
+    .right img {
+        width: 400px;
+        height: 300px;
+    }
+    .left h1 {
+        font-size: 35px;
+        text-transform: capitalize;
+    }
+    .left p{
+        font-size: 16px;
+    }
+    .wid{
+        width: 100%;
+    }
+    .about-right p {
+        margin-right: 0px;
+    }
+    .about-right p {
+        font-size: 16px;
+    }
+    .media{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .back-img {
+        background: url("./images/7.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: bottom;
+    }
+    .about-right .m-bottom{
+     margin-bottom: 40px;
+    }
+    .f-size{
+        font-size: 16px;
+    }
+    .card {
+       margin-bottom: 25px;
+       height: 500px;
+       overflow: auto;
+    }
+    .Counter-section {
+        padding: 10px;
+    }
+    .Counter-section h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .Counter-section p{
+        text-align: center;
+    }
+    .footer h1{
+        padding-top: 10%;
+     }
 }
