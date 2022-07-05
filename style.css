@@ -203,6 +203,7 @@
        margin-bottom: 25px;
        height: 500px;
        overflow: auto;
+       padding: 30px;
     }
     .Counter-section {
         padding: 10px;
